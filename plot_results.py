@@ -29,6 +29,7 @@ ax2.grid(axis='y', linestyle='--', alpha=0.7)
 
 fig.suptitle('Comparative KPI Performance (Lower is Better)', fontsize=16)
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-plt.savefig('kpi_comparison_chart.png')
+plt.savefig('results/kpi_comparison_chart.png')
 print("Successfully saved kpi_comparison_chart.png")
 plt.show()
+
