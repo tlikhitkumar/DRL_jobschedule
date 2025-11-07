@@ -174,6 +174,7 @@ else:
     fig.update_layout(xaxis_title="Simulation Time")
     
     # Save the chart as an HTML file
-    fig.write_html("drl_gantt_chart.html", include_plotlyjs='inline')
+    fig.write_html("results/drl_gantt_chart.html", include_plotlyjs='inline'))
     print("Success! Interactive Gantt chart saved to drl_gantt_chart.html")
     # fig.show() # Uncomment this to open the chart in your browser
+
