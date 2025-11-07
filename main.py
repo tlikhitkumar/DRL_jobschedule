@@ -125,7 +125,8 @@ if __name__ == "__main__":
     plt.ylabel('Score (Cumulative Reward)')
     plt.xlabel('Episode #')
     plt.title('DQN Training Scores')
-    plt.savefig('training_scores.png')
+    plt.savefig('results/training_scores.png')
     plt.close(fig) # Close the figure to free memory
     
+
     print("Training plot saved to training_scores.png")
